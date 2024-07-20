@@ -1,6 +1,6 @@
 "use server"
 import { db } from "@/lib/db";
-import { Transaction } from "@/types/transaction";
+import { Transaction } from "@/types/Transaction";
 import { auth } from "@clerk/nextjs/server";
 
 
