@@ -1,7 +1,6 @@
 "use client"
 
 import addTransaction from "@/actions/addTransaction"
-import { Transaction } from "@prisma/client"
 import { FormEvent, useRef, useState } from "react"
 import { toast } from "react-toastify"
 
